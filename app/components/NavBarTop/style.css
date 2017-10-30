@@ -1,0 +1,61 @@
+/* NavBarTop Styles */
+
+.navBar {
+  display:flex;
+  flex-direction:row;
+  background:#ffffff;
+  background-size: cover;
+  width:auto;
+  height:200px;
+  justify-content:space-between;
+  align-items:center;
+
+
+  box-shadow: 8px 10px #8cbea3;
+  padding-left: 30px;
+  padding-right: 20px
+}
+
+.siteName {
+  width:40%;
+  font-size:5.5em;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: left;
+  font-family: 'Grand Hotel', cursive;
+  line-height:40px;
+  color:#f2b5a3;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+
+
+
+.nav {
+  width:auto;
+  display:flex;
+  flex-direction:row;
+  margin-left: 0px;
+  float: right;
+  flex-shrink: 4;
+  flex-wrap: wrap;
+}
+
+.navButton {
+  color:#f2b5a3;
+  font-size:2em;
+  text-decoration:none;
+  align-items: center;
+  float: right;
+  padding-right: 10px;
+  padding-left: 5px;
+  margin-right: 10px;
+  margin-left: 5px;
+
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.menuIcon {
+  display:none;
+}

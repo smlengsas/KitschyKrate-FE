@@ -10,13 +10,17 @@ import Helmet from 'react-helmet';
 import './style.css';
 import './styleM.css';
 
+import NavBarTop from 'components/NavBarTop';
+
+
 export default class Home extends React.PureComponent {
   render() {
     return (
-      <div className="container">
+      <div className="homeContainer">
         <Helmet title="Home" meta={[ { name: 'description', content: 'Description of Home' }]}/>
-        Hi
-        //Remove this line and you can start writing your code here.
+
+        <NavBarTop/>
+
       </div>
     );
   }
