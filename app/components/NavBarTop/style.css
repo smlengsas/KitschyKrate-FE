@@ -9,9 +9,7 @@
   height:200px;
   justify-content:space-between;
   align-items:center;
-
-
-  box-shadow: 8px 10px #8cbea3;
+  box-shadow: 8px 12px #f2736a;
   padding-left: 30px;
   padding-right: 20px
 }
@@ -24,7 +22,7 @@
   float: left;
   font-family: 'Grand Hotel', cursive;
   line-height:40px;
-  color:#f2b5a3;
+  color:#c21622;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -43,7 +41,7 @@
 }
 
 .navButton {
-  color:#f2b5a3;
+  color:#c21622;
   font-size:2em;
   text-decoration:none;
   align-items: center;

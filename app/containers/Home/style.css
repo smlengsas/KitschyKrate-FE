@@ -11,4 +11,9 @@
   padding-right: 10px;
   padding-bottom: 20px;
   margin: 0, auto;
+  background-size: 325px;
+  background-position:center center;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-image: url("../../IMAGES/retro-background.jpg");
 }

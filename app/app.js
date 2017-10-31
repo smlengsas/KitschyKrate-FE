@@ -6,12 +6,14 @@ import '!file-loader?name=[name].[ext]!./favicon.ico';
 import '!file-loader?name=[name].[ext]!./manifest.json';
 
 import Home from 'containers/Home';
+import Subscribe from 'containers/Subscribe';
 import NotFound from 'containers/NotFound';
 
 ReactDOM.render((
   <BrowserRouter>
     <Switch>
       <Route exact path='/' component={Home}/>
+      <Route exact path='/subscribe' component={Subscribe}/>
 
       <Route path='*' component={NotFound}/>
     </Switch>
