@@ -41,6 +41,7 @@ export default class NavBarTop extends React.PureComponent {
       return(
         <nav className="navMobile">
         <Link to="/" className="navButton">Home</Link>
+        <Link to="/about" className="navButton">About</Link>
         <Link to="/subscribe" className="navButton">Subscribe</Link>
 
         </nav>
@@ -59,6 +60,7 @@ export default class NavBarTop extends React.PureComponent {
 
           <nav className="nav">
           <Link to="/" className="navButton">Home</Link>
+          <Link to="/about" className="navButton">About</Link>
           <Link to="/subscribe" className="navButton">Subscribe</Link>
 
           </nav>

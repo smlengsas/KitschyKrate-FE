@@ -9,7 +9,8 @@ import React from 'react';
 import './style.css';
 import './styleM.css';
 
-export default class NavBarBottom extends React.PureComponent {
+export default class AllAboutUs extends React.PureComponent {
+
   render() {
     return (
       <div>
@@ -17,8 +18,10 @@ export default class NavBarBottom extends React.PureComponent {
       </div>
     );
   }
+
+  
 }
 
-NavBarBottom.contextTypes = {
+AllAboutUs.contextTypes = {
   router: React.PropTypes.object
 };

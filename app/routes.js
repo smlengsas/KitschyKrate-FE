@@ -18,23 +18,36 @@ export default function createRoutes() {
          .catch(errorLoading);
      },
    },
-     {
-        path: '/subscribe',
-        name: 'subscribe',
-        getComponent(nextState, comMod) {
-          import('containers/Subscribe')
-            .then(loadModule(comMod))
-            .catch(errorLoading);
-        },
-      },
-     {
-      path: '*',
-      name: 'notfound',
+
+   {
+      path: '/subscribe',
+      name: 'subscribe',
       getComponent(nextState, comMod) {
-        import('containers/NotFoundPage')
+        import('containers/Subscribe')
           .then(loadModule(comMod))
           .catch(errorLoading);
       },
     },
+
+    {
+       path: '/about',
+       name: 'about',
+       getComponent(nextState, comMod) {
+         import('containers/About')
+           .then(loadModule(comMod))
+           .catch(errorLoading);
+       },
+     },
+
+   {
+    path: '*',
+    name: 'notfound',
+    getComponent(nextState, comMod) {
+      import('containers/NotFoundPage')
+        .then(loadModule(comMod))
+        .catch(errorLoading);
+    },
+  },
+
   ];
 }
