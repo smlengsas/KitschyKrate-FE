@@ -1,1 +1,85 @@
 /* AllAboutUs Styles */
+
+.aboutBox {
+  background-color: #FFFFFF;
+  color: #000000;
+  padding: 40px;
+  width: 50vw;
+  height: auto;
+  margin:30px;
+  margin-top: 40px;
+  background-position: center;
+  font-family: 'Mouse Memoirs', sans-serif;
+  box-shadow: 8px 12px #82beb6;
+  justify-content: center;
+  text-align: center;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content:space-between;
+  margin: 0, auto;
+}
+
+.topSection p {
+  color: #000000;
+  background-position: left;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 2em;
+  justify-content: center;
+  word-spacing: .08em;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 20px;
+}
+
+.kitschyPrice {
+  color: #c21622;
+  background-position: left;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 2em;
+  justify-content: center;
+  word-spacing: .08em;
+  text-align: center;
+  line-height: 40px;
+  padding-bottom: 20px;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+}
+
+.bottomSection p {
+  color: #000000;
+  background-position: left;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 1.7em;
+  justify-content: center;
+  word-spacing: .05em;
+  line-height: 40px;
+  text-align: center;
+}
+
+.header h1 {
+  color: #c21622;
+  font-family: 'Grand Hotel', cursive;
+  font-style:normal;
+  font-size: 5em;
+  text-align: center;
+  line-height:60px;
+  word-spacing: normal;
+  padding-bottom: 25px;
+}
+
+.bottomSection h2 {
+  color: #c21622;
+}
+
+.header h3 {
+  color: #c21622;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-style:normal;
+  font-size: 2em;
+  text-align: center;
+  line-height:40px;
+  font-kerning: auto;
+  padding-bottom: 20px;
+}

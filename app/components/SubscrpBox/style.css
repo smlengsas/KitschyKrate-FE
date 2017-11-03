@@ -1,1 +1,43 @@
-/* SubscrptionCboCxpBoxBox Styles */
+/* SubscrpBox Styles */
+
+.kitschyBox {
+  background-color: #FFFFFF;
+  width: auto;
+  height: auto;
+  padding: 40px;
+  font-size: 2em;
+  color: #000000;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  z-index: 2;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.kitschyName {
+  padding: 10px;
+}
+
+.button {
+  background-color: #c21622;
+  color: #FFFFFF;
+  text-decoration: none;
+  border: none;
+  font-size: 1em;
+  outline: none;
+  cursor:pointer;
+  padding: 10px;
+  margin-top: 5vh;
+  z-index: 0;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Mouse Memoirs', sans-serif;
+}
