@@ -16,7 +16,7 @@ export default class Slider extends React.PureComponent {
   constructor() {
     super();
     this.state = {
-      images: ['Halloween_Slide_1.jpg','Thanksgiving_Slide_1.jpg', 'Christmas_Slide_1.jpg'],
+      images: ['Halloween_Slide_1.jpg','Thanksgiving_Slide_1.jpg', 'Christmas_Slide_1.jpg', 'CocktailParty_Slide_1.jpg', 'ComingSoon_Slide_1.jpg'],
       activeIndex:0
     }
   }

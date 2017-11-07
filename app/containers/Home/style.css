@@ -1,5 +1,9 @@
 /* Home Styles */
 
+* {
+  margin: 0;
+}
+
 .homeContainer {
   display:flex;
   flex-direction:column;

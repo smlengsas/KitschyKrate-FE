@@ -3,15 +3,15 @@
 .aboutBox {
   background-color: #FFFFFF;
   color: #000000;
-  padding: 40px;
+  padding: 45px;
   width: 50vw;
   height: auto;
-  margin:30px;
+  margin:100px;
   margin-top: 40px;
-  background-position: center;
+  background-position: center center;
   font-family: 'Mouse Memoirs', sans-serif;
   box-shadow: 8px 12px #82beb6;
-  justify-content: center;
+
   text-align: center;
   display:flex;
   flex-direction: column;
@@ -47,6 +47,18 @@
   margin-bottom: 2vh;
 }
 
+.middleSection {
+  color: #000000;
+  background-position: left;
+  font-family: 'Mouse Memoirs', sans-serif;
+  font-size: 1.7em;
+  justify-content: center;
+  word-spacing: .05em;
+  line-height: 40px;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
 .bottomSection p {
   color: #000000;
   background-position: left;
@@ -71,13 +83,21 @@
 
 .bottomSection h2 {
   color: #c21622;
+  margin-bottom: 2vh;
+  line-height: 30px;
+}
+
+.footer {
+  line-height: 30px;
+  margin-top: 5vh;
+  font-size: 2em;
 }
 
 .header h3 {
   color: #c21622;
   font-family: 'Mouse Memoirs', sans-serif;
   font-style:normal;
-  font-size: 2em;
+  font-size: 2.25em;
   text-align: center;
   line-height:40px;
   font-kerning: auto;
